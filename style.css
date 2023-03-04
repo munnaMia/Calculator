@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-image: url(image/background.jfif);
+}
+h1{
+    text-align: center;
+    color: beige;
+}
+.card{
+    margin: 0 auto;
+    max-width: 400px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    margin-top: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.2);
+    transition: 0.3s;
+    font-size: 0;
+    backdrop-filter: blur(15px);
+    border: 1px solid gray;
+}
+
+.card:hover{
+    box-shadow: 0 16px 16px 0 rgba(255, 255, 255, 0.2);
+}
+
+.card .headC #output{
+    width: 343px;
+    height: 80px;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: right;
+    padding: 0 10px;
+    letter-spacing: 2px;
+    border: 1px solid gray;
+    color: aliceblue;
+    border-radius: 10px;
+    background: transparent;
+}
+
+.btn{
+    width: 87px;
+    height: 70px;
+    margin: 3px;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background: transparent;
+}
+
+.btn:hover{
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.btn:active{
+    font-weight: bold;
+    color: black;
+    background-color: rgb(21, 255, 0);
+}
+
+
+.fill{
+    margin-top: 30px;
+    height: 200px;
+}
